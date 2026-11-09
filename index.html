@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c0b">
+  <meta name="description" content="Ник Петров — AI Automation Specialist. AI-решения, автоматизация процессов и цифровые продукты.">
+  <title>Ник Петров — AI Automation Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="На главную">NP<span>.</span></a>
+    <nav class="nav">
+      <a href="#about" data-i18n="navAbout">ОБО МНЕ</a>
+      <a href="#projects" data-i18n="navProjects">ПРОЕКТЫ</a>
+      <a href="#resume" data-i18n="navResume">РЕЗЮМЕ</a>
+      <a href="#contact" data-i18n="navContact">КОНТАКТЫ</a>
+    </nav>
+    <button class="lang-switch" id="langSwitch" type="button" aria-label="Switch language">RU <span>/</span> EN</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span><span data-i18n="heroEyebrow">AI AUTOMATION · PORTFOLIO</span></p>
+        <h1><span data-i18n="firstName">НИК</span><br><span data-i18n="lastName">ПЕТРОВ</span><i>.</i></h1>
+        <p class="role">AI AUTOMATION<br class="mobile-break"> SPECIALIST</p>
+        <p class="hero-description" data-i18n="heroDescription">Разрабатываю AI-решения, автоматизирую процессы и превращаю идеи в работающие цифровые продукты.</p>
+        <a class="primary-link" href="#projects"><span data-i18n="seeProjects">СМОТРЕТЬ ПРОЕКТЫ</span><b>↘</b></a>
+        <div class="hero-meta"><span data-i18n="remote">REMOTE · OPEN TO OPPORTUNITIES</span><span>01 / 04</span></div>
+      </div>
+      <div class="hero-portrait" aria-label="Портрет Ника Петрова">
+        <img src="images/portrait.png" alt="Портрет Ника Петрова">
+      </div>
+      <div class="hero-side-note">AUTOMATION<br>× AI<br>× PRODUCT</div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div class="section-kicker"><span>01</span><span data-i18n="aboutKicker">ПРОФИЛЬ</span></div>
+      <div class="intro-grid">
+        <h2 data-i18n="aboutTitle">От идеи<br>к <em>работающему</em><br>решению.</h2>
+        <div class="intro-text">
+          <p data-i18n="aboutText">Начинающий специалист в области AI Automation. Создаю автоматизированные workflow, изучаю интеграции AI-моделей и разрабатываю прикладные цифровые решения.</p>
+          <p class="muted" data-i18n="aboutText2">В работе использую ChatGPT, n8n, Python и инструменты разработки. Самостоятельно определяю задачи и логику продукта, применяю AI-assisted development для реализации, проверки и улучшения решений.</p>
+          <a class="text-link" href="#resume"><span data-i18n="readResume">ПЕРЕЙТИ К РЕЗЮМЕ</span> ↘</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="section-kicker"><span>02</span><span data-i18n="projectsKicker">ИЗБРАННЫЕ ПРОЕКТЫ</span><span class="kicker-line"></span><span>03 CASES</span></div>
+      <div class="projects-heading">
+        <h2 data-i18n="projectsTitle">Практика.<br><em>Эксперименты.</em><br>Решения.</h2>
+        <p data-i18n="projectsLead">Три проекта на разных этапах — от работающей автоматизации до проектирования цифрового продукта.</p>
+      </div>
+
+      <article class="project-card" data-project="trading">
+        <div class="project-top"><span>01 / AUTOMATION</span><span class="status status-paused" data-i18n="statusPaused">ТЕСТИРОВАЛСЯ · ПРИОСТАНОВЛЕН</span></div>
+        <div class="project-main">
+          <div class="project-visual">
+            <div class="visual-placeholder">
+              <div class="placeholder-label">TELEGRAM SIGNALS BOT</div>
+              <div class="signal-card"><span class="signal-tag">BTC / USDT</span><strong>LONG</strong><small>ENTRY ZONE · TP · SL</small></div>
+              <div class="visual-caption" data-i18n="screensHint">Скриншоты проекта можно добавить самостоятельно</div>
+            </div>
+            <div class="carousel-controls" hidden>
+              <button type="button" class="prev" aria-label="Previous image">←</button><span class="slide-count"></span><button type="button" class="next" aria-label="Next image">→</button>
+            </div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">n8n · AI · TELEGRAM · API</p>
+            <h3>Automated<br>Trading Signals Bot</h3>
+            <p data-i18n="tradingShort">Автоматизация анализа криптовалютного рынка с помощью n8n и AI. Система отбирала ликвидные инструменты на нескольких биржах и отправляла торговые сигналы в Telegram.</p>
+            <button class="details-toggle" type="button" aria-expanded="false"><span data-i18n="moreDetails">ПОДРОБНЕЕ О ПРОЕКТЕ</span><b>＋</b></button>
+          </div>
+        </div>
+        <div class="project-details" hidden>
+          <div><span class="detail-label" data-i18n="taskLabel">ЗАДАЧА</span><p data-i18n="tradingTask">Сократить время, которое трейдер тратит на ручной просмотр рынка, и автоматизировать первичный анализ большого количества торговых инструментов.</p></div>
+          <div><span class="detail-label" data-i18n="solutionLabel">РЕШЕНИЕ</span><p data-i18n="tradingSolution">Workflow в n8n запускался по расписанию, получал данные через API Binance, MEXC и Bybit, предварительно фильтровал монеты по объёму и ликвидности, а затем передавал отобранные данные в AI-анализ по заданной стратегии. Результатом становились сигналы в Telegram.</p></div>
+          <div><span class="detail-label" data-i18n="roleLabel">МОЯ РОЛЬ</span><p data-i18n="tradingRole">Я придумал концепцию, определил стратегию, параметры и логику работы системы. ChatGPT помогал с технической реализацией, интеграциями и настройкой.</p></div>
+          <div><span class="detail-label" data-i18n="stackLabel">ТЕХНОЛОГИИ</span><p>n8n · ChatGPT · Binance API · MEXC API · Bybit API · Telegram Bot · VPS Beget</p></div>
+        </div>
+      </article>
+
+      <article class="project-card" data-project="analyst">
+        <div class="project-top"><span>02 / AI DEVELOPMENT</span><span class="status status-progress" data-i18n="statusProgress">В РАЗРАБОТКЕ</span></div>
+        <div class="project-main">
+          <div class="project-visual">
+            <div class="visual-placeholder terminal">
+              <div class="terminal-bar"><i></i><i></i><i></i><span>CR13_AI / TERMINAL</span></div>
+              <div class="terminal-lines"><b>CR13 AI ANALYST</b><span>» MEXC Futures API connected</span><span>» Market filtering: completed</span><span>» ATR / swing analysis</span><span class="terminal-accent">» pytest: 3 passed</span><span class="terminal-cursor">_</span></div>
+              <div class="visual-caption" data-i18n="screensHint">Скриншоты проекта можно добавить самостоятельно</div>
+            </div>
+            <div class="carousel-controls" hidden><button type="button" class="prev" aria-label="Previous image">←</button><span class="slide-count"></span><button type="button" class="next" aria-label="Next image">→</button></div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">PYTHON · MEXC API · SQLITE</p>
+            <h3>CR13 AI Analyst</h3>
+            <p data-i18n="analystShort">Разработка аналитического ядра для автоматического поиска торговых ситуаций на рынке фьючерсов и подготовки сигналов.</p>
+            <button class="details-toggle" type="button" aria-expanded="false"><span data-i18n="moreDetails">ПОДРОБНЕЕ О ПРОЕКТЕ</span><b>＋</b></button>
+          </div>
+        </div>
+        <div class="project-details" hidden>
+          <div><span class="detail-label" data-i18n="taskLabel">ЗАДАЧА</span><p data-i18n="analystTask">Создать основу аналитического приложения, которое получает рыночные данные, отбирает подходящие инструменты и помогает находить торговые ситуации по заданным правилам.</p></div>
+          <div><span class="detail-label" data-i18n="solutionLabel">РЕАЛИЗОВАНО</span><p data-i18n="analystSolution">Подключение к публичному MEXC USDT-M Futures API, фильтрация контрактов по ликвидности и спреду, обработка свечных данных, расчёт ATR, анализ локальных экстремумов и сохранение кандидатов в SQLite.</p></div>
+          <div><span class="detail-label" data-i18n="roleLabel">МОЯ РОЛЬ</span><p data-i18n="analystRole">Определяю назначение и архитектуру проекта, формулирую задачи для компонентов, использую ChatGPT для генерации и доработки кода, самостоятельно запускаю систему, проверяю результаты, анализирую ошибки и уточняю требования.</p></div>
+          <div><span class="detail-label" data-i18n="stackLabel">ТЕХНОЛОГИИ</span><p>Python · MEXC Futures Public API · SQLite · Pandas · NumPy · Requests · Pytest</p></div>
+          <p class="disclaimer" data-i18n="analystNote">Проект находится в разработке. Это аналитический инструмент, а не готовая торговая система; приватные торговые API не используются.</p>
+        </div>
+      </article>
+
+      <article class="project-card" data-project="nanny">
+        <div class="project-top"><span>03 / PRODUCT CONCEPT</span><span class="status status-concept" data-i18n="statusConcept">КОНЦЕПЦИЯ</span></div>
+        <div class="project-main">
+          <div class="project-visual">
+            <div class="visual-placeholder nanny">
+              <div class="nanny-window"><span>CARE / MATCH</span><strong>Найти няню,<br>которая подходит.</strong><div class="nanny-chips"><i>Опыт</i><i>Возраст</i><i>Рейтинг</i></div><small>PERSONALIZED MATCHING SERVICE</small></div>
+              <div class="visual-caption" data-i18n="conceptHint">Визуальная заглушка концепции — не скриншот готового приложения</div>
+            </div>
+            <div class="carousel-controls" hidden><button type="button" class="prev" aria-label="Previous image">←</button><span class="slide-count"></span><button type="button" class="next" aria-label="Next image">→</button></div>
+          </div>
+          <div class="project-copy">
+            <p class="project-type">TELEGRAM MINI APP · UX · PRODUCT</p>
+            <h3>Nanny Telegram<br>Mini App</h3>
+            <p data-i18n="nannyShort">Концепция сервиса, который помогает родителям находить нянь, а няням — подходящие предложения работы. С акцентом на индивидуальный подбор.</p>
+            <button class="details-toggle" type="button" aria-expanded="false"><span data-i18n="moreDetails">ПОДРОБНЕЕ О ПРОЕКТЕ</span><b>＋</b></button>
+          </div>
+        </div>
+        <div class="project-details" hidden>
+          <div><span class="detail-label" data-i18n="taskLabel">ЗАДАЧА</span><p data-i18n="nannyTask">Упростить поиск няни для родителей и поиск работы для нянь, сделав процесс более адресным, чем обычный каталог анкет.</p></div>
+          <div><span class="detail-label" data-i18n="conceptLabel">КОНЦЕПЦИЯ</span><p data-i18n="nannySolution">Няни самостоятельно создают профили. Родители используют фильтры по возрасту ребёнка, опыту и рейтингу, отправляют заявку, а няня подтверждает её. Дополнительно предусмотрен индивидуальный подбор под запрос семьи.</p></div>
+          <div><span class="detail-label" data-i18n="roleLabel">МОЯ РОЛЬ</span><p data-i18n="nannyRole">Самостоятельно придумал концепцию и определил функциональность сервиса. ChatGPT помогал прорабатывать бизнес-модель, пользовательские сценарии и структуру приложения.</p></div>
+          <div><span class="detail-label" data-i18n="stackLabel">СТАТУС</span><p data-i18n="nannyStatus">Стадия концепции и проектирования. Программная реализация ещё не начата.</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="resume section-wrap" id="resume">
+      <div class="section-kicker"><span>03</span><span data-i18n="resumeKicker">РЕЗЮМЕ</span><span class="kicker-line"></span><span>PROFILE / EXPERIENCE / SKILLS</span></div>
+      <div class="resume-head">
+        <div><h2 data-i18n="resumeTitle">Профиль<br><em>и компетенции.</em></h2></div>
+        <div class="resume-downloads">
+  <a class="text-link" href="resume/resume_nikita_petrov_RU.pdf" download>
+    СКАЧАТЬ РЕЗЮМЕ RU ↓
+  </a>
+  <a class="text-link" href="resume/resume_nikita_petrov_EN.pdf" download>
+    DOWNLOAD CV EN ↓
+  </a>
+</div>
+      </div>
+      <div class="resume-summary">
+        <span class="detail-label" data-i18n="profileLabel">ПРОФЕССИОНАЛЬНЫЙ ПРОФИЛЬ</span>
+        <p data-i18n="resumeProfile">Начинающий специалист в области AI Automation. Практически работаю с n8n, AI-интеграциями и Telegram-ботами. Определяю задачи и логику цифровых продуктов, использую AI-assisted development для реализации, запуска, проверки и улучшения решений.</p>
+        <p class="resume-position" data-i18n="resumePosition">Junior AI Automation Specialist · Удалённая работа · Россия / международные проекты</p>
+      </div>
+      <div class="resume-subheading"><span data-i18n="skillsLabel">НАВЫКИ И ИНСТРУМЕНТЫ</span><span>01</span></div>
+      <div class="resume-grid">
+        <div class="resume-block"><span class="detail-label" data-i18n="automationLabel">АВТОМАТИЗАЦИЯ</span><p>n8n · Visual Workflow Design · Telegram Bots · AI Integrations</p></div>
+        <div class="resume-block"><span class="detail-label">AI & LLM</span><p>ChatGPT · LLM · AI-assisted Development</p></div>
+        <div class="resume-block"><span class="detail-label" data-i18n="developmentLabel">РАЗРАБОТКА И ДАННЫЕ</span><p>Python (basic) · API / HTTP (basic) · JSON (beginner) · SQLite · Pandas · NumPy · Pytest</p></div>
+        <div class="resume-block"><span class="detail-label" data-i18n="environmentLabel">СРЕДА И ИНСТРУМЕНТЫ</span><p>VS Code · Windows Terminal / PowerShell · Git · GitHub</p></div>
+      </div>
+      <div class="resume-subheading"><span data-i18n="projectsExperienceLabel">ПРОЕКТНЫЙ ОПЫТ</span><span>02</span></div>
+      <div class="resume-experience">
+        <article class="resume-case"><div class="resume-case-top"><h3>Automated Trading Signals Bot</h3><span data-i18n="resumeTradingStatus">ТЕСТИРОВАЛСЯ · ПРИОСТАНОВЛЕН</span></div><p data-i18n="resumeTrading">Разработал концепцию автоматизации первичного анализа криптовалютного рынка. Workflow в n8n запускался по расписанию, получал данные через API Binance, MEXC и Bybit, фильтровал инструменты по объёму и ликвидности, передавал отобранные данные на AI-анализ по заданной стратегии и отправлял сигналы в Telegram. Определял назначение, параметры и логику системы; ChatGPT помогал с технической реализацией, интеграциями и настройкой.</p><small>n8n · ChatGPT · Binance API · MEXC API · Bybit API · Telegram Bot · VPS Beget</small></article>
+        <article class="resume-case"><div class="resume-case-top"><h3>CR13 AI Analyst</h3><span data-i18n="resumeAnalystStatus">В РАЗРАБОТКЕ</span></div><p data-i18n="resumeAnalyst">Разрабатываю аналитическое ядро для поиска торговых ситуаций на рынке фьючерсов. Реализована работа с публичным MEXC USDT-M Futures API, фильтрация контрактов по ликвидности и спреду, обработка свечей, расчёт ATR, анализ локальных экстремумов и сохранение кандидатов в SQLite. Определяю архитектуру и задачи, использую ChatGPT для генерации и доработки кода, запускаю систему, проверяю результаты и разбираю ошибки.</p><small>Python · MEXC Futures Public API · SQLite · Pandas · NumPy · Requests · Pytest</small><p class="resume-note" data-i18n="resumeAnalystNote">Проект находится в разработке и пока не является готовой торговой системой. Используются только публичные API.</p></article>
+        <article class="resume-case"><div class="resume-case-top"><h3>Nanny Telegram Mini App</h3><span data-i18n="resumeNannyStatus">КОНЦЕПЦИЯ / ПРОЕКТИРОВАНИЕ</span></div><p data-i18n="resumeNanny">Самостоятельно придумал концепцию сервиса поиска нянь и определил его функциональность. Предусмотрены профили нянь, фильтры по возрасту ребёнка, опыту и рейтингу, заявки родителей с подтверждением няней и индивидуальный подбор под запрос семьи. ChatGPT помогал прорабатывать бизнес-модель, пользовательские сценарии и структуру приложения.</p><small>Product Concept · UX Planning · Telegram Mini App</small><p class="resume-note" data-i18n="resumeNannyNote">Программная реализация ещё не начата.</p></article>
+      </div>
+      <div class="resume-subheading"><span data-i18n="educationAndMoreLabel">ОБРАЗОВАНИЕ И ДОПОЛНИТЕЛЬНАЯ ИНФОРМАЦИЯ</span><span>03</span></div>
+      <div class="resume-bottom">
+        <div><span class="detail-label" data-i18n="educationLabel">ОБРАЗОВАНИЕ</span><p data-i18n="educationText">Среднее профессиональное образование<br>Строительство и эксплуатация зданий и сооружений</p></div>
+        <div><span class="detail-label" data-i18n="languagesLabel">ЯЗЫКИ</span><p data-i18n="languagesText">Русский — родной<br>Английский — A2</p></div>
+        <div><span class="detail-label" data-i18n="formatLabel">ФОРМАТ РАБОТЫ</span><p data-i18n="formatText">Удалённая работа<br>Полная / частичная занятость<br>Открыт к переезду</p></div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="section-kicker"><span>04</span><span data-i18n="contactKicker">СВЯЗЬ</span></div>
+      <h2 data-i18n="contactTitle">Есть идея?<br><em>Обсудим её реализацию.</em></h2>
+      <div class="contact-bottom">
+        <p class="contact-caption" data-i18n="contactCaption">Открыт к предложениям о работе, сотрудничеству и интересным проектам.</p>
+        <div class="contact-list">
+          <a class="contact-item" href="https://t.me/nikita_official_13" target="_blank" rel="noreferrer"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M21.8 2.7 2.9 10c-1.3.5-1.3 1.2-.2 1.5l4.8 1.5 1.8 5.5c.2.6.1.8.7.8.5 0 .7-.2 1-.5l2.3-2.3 4.8 3.5c.9.5 1.5.2 1.7-.8L23 4c.3-1.2-.5-1.8-1.2-1.3ZM9.4 12.7l9.4-6c.5-.3.9-.1.5.2l-7.8 7.1-.3 3.1-1.8-4.4Z"/></svg></span><span class="contact-label">TELEGRAM</span><strong>@nikita_official_13</strong><span class="contact-arrow">↗</span></a>
+          <a class="contact-item" href="mailto:13labs9@gmail.com"><span class="contact-icon" aria-hidden="true">✉</span><span class="contact-label">EMAIL</span><strong>13labs9@gmail.com</strong><span class="contact-arrow">↗</span></a>
+          <a class="contact-item" href="tel:+79129819497"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.84.58 2.8.7A2 2 0 0 1 22 16.92Z"/></svg></span><span class="contact-label" data-i18n="phoneLabel">ТЕЛЕФОН</span><strong>+7 912 981 94 97</strong><span class="contact-arrow">↗</span></a>
+          <a class="contact-item" href="https://github.com/PapaRimskiy13" target="_blank" rel="noreferrer"><span class="contact-icon" aria-hidden="true">⌘</span><span class="contact-label">GITHUB</span><strong>github.com/PapaRimskiy13</strong><span class="contact-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#top">NP<span>.</span></a><span>© 2026 NIK PETROV</span><a href="#top" data-i18n="backTop">НАВЕРХ ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
